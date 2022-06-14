@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*Шрифти*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Armata&family=Montserrat:wght@200&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
+/*Шрифти*/
+/*"Тіло" сайту*/
+.block-one {
+  height: 800px;
+  margin-bottom: 80px; }
+  .block-one__title {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 15px 0;
+    font-family: "Montserrat", sans-serif; }
+  .block-one__description {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 45px auto;
+    font-family: "Armata", sans-serif;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid gray; }
+  .block-one__slides {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 15px; }
+    .block-one__slides .next {
+      right: 0;
+      border-radius: 3px 0 0 3px; }
+    .block-one__slides .prev, .block-one__slides .next {
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0; }
+    .block-one__slides .prev:hover, .block-one__slides .next:hover {
+      background-color: rgba(0, 0, 0, 0.8); }
+  .block-one__item {
+    -webkit-animation-name: hide;
+    -webkit-animation-duration: 1.5s;
+    animation-name: hide;
+    animation-duration: 1.5s; }
+  .block-one__content {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .block-one__label {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px; }
+  .block-one__table {
+    font-size: 17px;
+    margin: 0 0 10px 0; }
+    .block-one__table caption {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      margin: 0 0 10px 0;
+      font-size: 19px; }
+    .block-one__table tbody {
+      font-family: "Armata", sans-serif; }
+      .block-one__table tbody td {
+        padding: 0 10px 4px 0; }
+  .block-one__img {
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0 5% 0 0; }
+    .block-one__img img {
+      height: 450px;
+      color: black;
+      transition: 0.5s; }
+      .block-one__img img:hover {
+        transform: scale(1.5);
+        cursor: pointer; }
+  .block-one__price {
+    font-family: "Armata", sans-serif;
+    font-size: 19px; }
+    .block-one__price span {
+      font-style: italic; }
+
+/*"Тіло" сайту*/
+@-webkit-keyframes hide {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+@keyframes hide {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=style1.css.map */
