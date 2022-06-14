@@ -92,7 +92,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 75px;
-  font-family: "Vintage Wheel Free Trial";
+  font-family: "Vintage Wheel Free Trial", sans-serif;
   margin-bottom: 25px; }
 .header__nav {
   display: flex;
