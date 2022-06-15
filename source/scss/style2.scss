@@ -4,7 +4,9 @@
 /*Шрифти*/
 
 /*"Тіло" сайту*/
-.block-one {
+.block-one,
+.block-two,
+.block-three {
 	height: 800px;
 	margin-bottom: 80px;
 	&__title {
