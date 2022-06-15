@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
 @font-face {
   font-family: "Vintage Wheel Free Trial";
-  src: url("/fonts/VintageWheelFreeTrial.otf"); }
+  src: url("./fonts/VintageWheelFreeTrial.otf"); }
 /*Обнуляющий код*/
 * {
   padding: 0;
@@ -177,6 +177,8 @@ body {
     display: inline-block;
     transition: background-color 0.6s ease;
     transition: opacity 0.3s ease; }
+    .header__slider-dots-item:checked {
+      background-color: black; }
     .header__slider-dots-item:hover {
       opacity: 0.5; }
 
