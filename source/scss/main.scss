@@ -61,6 +61,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
 	text-decoration: none;
+	color: inherit;
 }
 a:hover {
 	text-decoration: none;
@@ -93,23 +94,29 @@ body {
 
 /*"Шапка" сайту*/
 .header {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 35px;
+	background-color: rgba(255, 255, 255, 0.5);
 	&__logo {
 		display: flex;
 		justify-content: center;
 		font-size: 75px;
 		font-family: "Vintage Wheel Free Trial", sans-serif;
 		margin-bottom: 25px;
+		color: black;
 	}
 	&__nav {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 		position: relative;
 		& ul {
 			position: relative;
 			& li:hover {
 				& > ul {
+					box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 					max-height: 500px;
 					transition: max-height 0.25s ease-in;
 				}
@@ -121,14 +128,15 @@ body {
 				background: #d5d5d5;
 				position: absolute;
 				margin-top: 5px;
-				width: 245px;
+				width: 240px;
+
 				& li {
 					float: none;
 					display: list-item;
 					position: relative;
 					z-index: 2;
 					transition: all 0.5s;
-					margin-bottom: 5px;
+					margin: 20px 0 20px 10px;
 					& a {
 						font-size: 20px;
 					}
@@ -144,32 +152,32 @@ body {
 			color: inherit;
 			transition: all 0.5s;
 			text-transform: uppercase;
-		}
-
-		& a:hover {
-			color: rgba(165, 42, 42, 0.9);
-		}
-		& a::before,
-		& a::after {
-			transition: all 0.5s;
-		}
-		& a::after {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			margin: auto;
-			width: 0%;
-			content: ".";
-			color: transparent;
-			background: rgba(165, 42, 42, 0.9);
-			height: 1px;
-		}
-		& a:hover::after {
-			width: 100%;
+			&:hover {
+				color: rgba(165, 42, 42, 0.9);
+			}
+			&::before,
+			&::after {
+				transition: all 0.5s;
+			}
+			&::after {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				width: 0%;
+				content: ".";
+				color: transparent;
+				background: rgba(165, 42, 42, 0.9);
+				height: 1px;
+			}
+			&:hover::after {
+				width: 100%;
+			}
 		}
 	}
 	&__slider {
+		z-index: 2;
 		max-width: 90%;
 		position: relative;
 		margin: auto;
@@ -225,8 +233,9 @@ body {
 		margin-bottom: 45px;
 	}
 	&__contacts {
-		font-family: "Armata", sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-size: 17px;
+		line-height: 1.5;
 		& span {
 			font-weight: bold;
 		}
@@ -247,6 +256,7 @@ body {
 				& > ul {
 					max-height: 500px;
 					transition: max-height 0.25s ease-in;
+					box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 				}
 			}
 			& ul {
@@ -286,9 +296,28 @@ body {
 			color: inherit;
 			transition: all 0.5s;
 			text-transform: uppercase;
-		}
-		& a:hover {
-			color: rgba(165, 42, 42, 0.9);
+			&:hover {
+				color: rgba(165, 42, 42, 0.9);
+			}
+			&::before,
+			&::after {
+				transition: all 0.5s;
+			}
+			&::after {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				width: 0%;
+				content: ".";
+				color: transparent;
+				background: rgba(165, 42, 42, 0.9);
+				height: 1px;
+			}
+			&:hover::after {
+				width: 100%;
+			}
 		}
 	}
 }

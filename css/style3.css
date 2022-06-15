@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Шрифти*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Armata&family=Montserrat:wght@200&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat:wght@200&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
 /*Шрифти*/
 /*"Тіло" сайту*/
 .block-one__title, .block-one__label {
@@ -18,7 +18,7 @@
   width: 60%;
   text-align: center;
   margin: 0 auto 20px auto;
-  font-family: "Armata", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 .block-one__imgs {
   display: flex;
   justify-content: center;
@@ -27,7 +27,8 @@
   .block-one__imgs img {
     height: 200px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-right: 10px; }
+    margin-right: 20px;
+    border-radius: 15px; }
     .block-one__imgs img:last-child {
       margin-right: 0; }
 .block-one__history div {
@@ -40,15 +41,16 @@
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-  font-family: "Armata", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 .block-one__icon {
   display: flex; }
   .block-one__icon img {
     flex: 0 1 50%;
     height: 300px;
     width: 70%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px; }
     .block-one__icon img:first-of-type {
-      margin-right: 10px; }
+      margin-right: 20px; }
 
 /*# sourceMappingURL=style3.css.map */

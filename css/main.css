@@ -58,7 +58,8 @@ button::-moz-focus-inner {
 
 a,
 a:visited {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 a:hover {
   text-decoration: none; }
@@ -88,99 +89,107 @@ body {
   background-color: #d4d4d4; }
 
 /*"Шапка" сайту*/
-.header__logo {
-  display: flex;
-  justify-content: center;
-  font-size: 75px;
-  font-family: "Vintage Wheel Free Trial", sans-serif;
-  margin-bottom: 25px; }
-.header__nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 20px;
-  position: relative; }
-  .header__nav ul {
+.header {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 35px;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    font-family: "Vintage Wheel Free Trial", sans-serif;
+    margin-bottom: 25px;
+    color: black; }
+  .header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
     position: relative; }
-    .header__nav ul li:hover > ul {
-      max-height: 500px;
-      transition: max-height 0.25s ease-in; }
-    .header__nav ul ul {
-      max-height: 0;
-      transition: max-height 0.15s ease-out;
-      overflow: hidden;
-      background: #d5d5d5;
+    .header__nav ul {
+      position: relative; }
+      .header__nav ul li:hover > ul {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        max-height: 500px;
+        transition: max-height 0.25s ease-in; }
+      .header__nav ul ul {
+        max-height: 0;
+        transition: max-height 0.15s ease-out;
+        overflow: hidden;
+        background: #d5d5d5;
+        position: absolute;
+        margin-top: 5px;
+        width: 240px; }
+        .header__nav ul ul li {
+          float: none;
+          display: list-item;
+          position: relative;
+          z-index: 2;
+          transition: all 0.5s;
+          margin: 20px 0 20px 10px; }
+          .header__nav ul ul li a {
+            font-size: 20px; }
+  .header__item a {
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    font-size: 25px;
+    color: inherit;
+    transition: all 0.5s;
+    text-transform: uppercase; }
+    .header__item a:hover {
+      color: rgba(165, 42, 42, 0.9); }
+    .header__item a::before, .header__item a::after {
+      transition: all 0.5s; }
+    .header__item a::after {
       position: absolute;
-      margin-top: 5px;
-      width: 245px; }
-      .header__nav ul ul li {
-        float: none;
-        display: list-item;
-        position: relative;
-        z-index: 2;
-        transition: all 0.5s;
-        margin-bottom: 5px; }
-        .header__nav ul ul li a {
-          font-size: 20px; }
-.header__item a {
-  font-family: "Roboto Slab", serif;
-  position: relative;
-  font-size: 25px;
-  color: inherit;
-  transition: all 0.5s;
-  text-transform: uppercase; }
-.header__item a:hover {
-  color: rgba(165, 42, 42, 0.9); }
-.header__item a::before, .header__item a::after {
-  transition: all 0.5s; }
-.header__item a::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: ".";
-  color: transparent;
-  background: rgba(165, 42, 42, 0.9);
-  height: 1px; }
-.header__item a:hover::after {
-  width: 100%; }
-.header__slider {
-  max-width: 90%;
-  position: relative;
-  margin: auto;
-  height: 540px;
-  margin-bottom: 15px;
-  z-index: -1; }
-  .header__slider-item {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s; }
-    .header__slider-item img {
-      object-fit: cover;
-      width: 100%;
-      height: 540px;
-      border: none !important;
-      box-shadow: none !important; }
-  .header__slider-dots {
-    text-align: center;
-    margin-bottom: 20px; }
-  .header__slider-dots-item {
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 2px;
-    background-color: #bcbcbc;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    transition: opacity 0.3s ease; }
-    .header__slider-dots-item:checked {
-      background-color: black; }
-    .header__slider-dots-item:hover {
-      opacity: 0.5; }
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: ".";
+      color: transparent;
+      background: rgba(165, 42, 42, 0.9);
+      height: 1px; }
+    .header__item a:hover::after {
+      width: 100%; }
+  .header__slider {
+    z-index: 2;
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: 540px;
+    margin-bottom: 15px;
+    z-index: -1; }
+    .header__slider-item {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s; }
+      .header__slider-item img {
+        object-fit: cover;
+        width: 100%;
+        height: 540px;
+        border: none !important;
+        box-shadow: none !important; }
+    .header__slider-dots {
+      text-align: center;
+      margin-bottom: 20px; }
+    .header__slider-dots-item {
+      cursor: pointer;
+      height: 12px;
+      width: 12px;
+      margin: 0 2px;
+      background-color: #bcbcbc;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      transition: opacity 0.3s ease; }
+      .header__slider-dots-item:checked {
+        background-color: black; }
+      .header__slider-dots-item:hover {
+        opacity: 0.5; }
 
 /*"Шапка" сайту*/
 /*"Підвал" сайту*/
@@ -193,8 +202,9 @@ body {
     justify-content: space-around;
     margin-bottom: 45px; }
   .footer__contacts {
-    font-family: "Armata", sans-serif;
-    font-size: 17px; }
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    line-height: 1.5; }
     .footer__contacts span {
       font-weight: bold; }
   .footer__title {
@@ -210,7 +220,8 @@ body {
       position: relative; }
       .footer__nav ul li:hover > ul {
         max-height: 500px;
-        transition: max-height 0.25s ease-in; }
+        transition: max-height 0.25s ease-in;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
       .footer__nav ul ul {
         width: 215px;
         max-height: 0;
@@ -241,8 +252,23 @@ body {
     color: inherit;
     transition: all 0.5s;
     text-transform: uppercase; }
-  .footer__item a:hover {
-    color: rgba(165, 42, 42, 0.9); }
+    .footer__item a:hover {
+      color: rgba(165, 42, 42, 0.9); }
+    .footer__item a::before, .footer__item a::after {
+      transition: all 0.5s; }
+    .footer__item a::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: ".";
+      color: transparent;
+      background: rgba(165, 42, 42, 0.9);
+      height: 1px; }
+    .footer__item a:hover::after {
+      width: 100%; }
 
 /*"Підвал" сайту*/
 @-webkit-keyframes fade {

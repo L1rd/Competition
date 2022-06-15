@@ -1,6 +1,6 @@
 /*Шрифти*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Armata&family=Montserrat:wght@200&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat:wght@200&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
 /*Шрифти*/
 
 /*"Тіло" сайту*/
@@ -21,7 +21,7 @@
 		width: 60%;
 		text-align: center;
 		margin: 0 auto 20px auto;
-		font-family: "Armata", sans-serif;
+		font-family: "Montserrat", sans-serif;
 	}
 	&__imgs {
 		display: flex;
@@ -31,7 +31,8 @@
 		& img {
 			height: 200px;
 			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-			margin-right: 10px;
+			margin-right: 20px;
+			border-radius: 15px;
 			&:last-child {
 				margin-right: 0;
 			}
@@ -50,7 +51,7 @@
 		font-size: 20px;
 		line-height: 30px;
 		text-align: center;
-		font-family: "Armata", sans-serif;
+		font-family: "Montserrat", sans-serif;
 	}
 	&__icon {
 		display: flex;
@@ -59,8 +60,9 @@
 			height: 300px;
 			width: 70%;
 			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			border-radius: 15px;
 			&:first-of-type {
-				margin-right: 10px;
+				margin-right: 20px;
 			}
 		}
 	}
