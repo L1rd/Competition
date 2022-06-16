@@ -6,6 +6,7 @@ showSlides(slideIndex);
 
 /* Функція збільшує індекс на 1, показуючи наступний слайд*/
 function plusSlide() {
+
 	showSlides(slideIndex += 1);
 }
 

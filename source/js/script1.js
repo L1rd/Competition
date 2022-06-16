@@ -32,3 +32,7 @@ function showSlide(x) {
 	slide[slideNum - 1].style.display = "block";
 
 }
+
+function changeImage(id, way) {
+	document.getElementById(id).src = way;
+}

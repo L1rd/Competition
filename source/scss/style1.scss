@@ -11,18 +11,19 @@
 	&__title {
 		font-size: 30px;
 		line-height: 38px;
-
+		color: rgb(123, 31, 31);
 		text-align: center;
 		margin: 0 0 15px 0;
 		font-family: "Montserrat", sans-serif;
 		font-weight: 500;
+		text-transform: uppercase;
 	}
 	&__description {
 		display: block;
 		font-size: 25px;
 		line-height: 1.5;
 		width: 75%;
-		text-align: center;
+		text-align: justify;
 		margin: 0 auto 45px auto;
 		font-family: "Montserrat", sans-serif;
 		padding: 0 0 20px 0;
@@ -40,11 +41,11 @@
 			border-radius: 3px 0 0 3px;
 		}
 		& .prev,
-		& .next {	
+		& .next {
 			display: flex;
-			align-items: center;		
+			align-items: center;
 			cursor: pointer;
-			position: absolute;			
+			position: absolute;
 			top: 40%;
 			width: auto;
 			margin-top: -22px;
@@ -78,6 +79,7 @@
 		text-align: center;
 		font-weight: 500;
 		font-size: 25px;
+		color: rgb(123, 31, 31);
 	}
 	&__table {
 		font-size: 18px;
@@ -92,7 +94,7 @@
 			font-family: "Montserrat", sans-serif;
 			& td {
 				&:first-of-type {
-					width: 250px;
+					width: 300px;
 				}
 				padding: 0 10px 4px 0;
 				width: 350px;
@@ -101,6 +103,16 @@
 	}
 	&__img {
 		margin: 0 5% 0 0;
+		& .hide {
+			font-family: "Montserrat", sans-serif;
+			text-align: center;
+			font-size: 13px;
+		}
+		&:active {
+			& .hide {
+				opacity: 0;
+			}
+		}
 		& img {
 			height: 600px;
 			color: black;
@@ -108,7 +120,8 @@
 			cursor: pointer;
 
 			&:active {
-				transform: rotate(90deg) scale(2.2) translate3d(30px, -150px, 20px);
+				backdrop-filter: blur(5px);
+				transform: rotate(90deg) scale(2.2) translate3d(30px, -160px, 20px);
 			}
 		}
 	}
@@ -117,7 +130,13 @@
 		font-size: 19px;
 		text-align: center;
 		font-weight: 500;
-		
+	}
+}
+.guitar-color {
+	text-decoration: underline;	
+	cursor: pointer;
+	&:hover {
+		font-weight: 500;
 	}
 }
 /*"Тіло" сайту*/

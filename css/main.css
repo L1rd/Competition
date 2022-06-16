@@ -89,6 +89,20 @@ body {
   background-color: #d4d4d4; }
 
 /*"Шапка" сайту*/
+#current {
+  color: rgba(165, 42, 42, 0.9); }
+  #current::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    content: ".";
+    color: transparent;
+    background: rgba(165, 42, 42, 0.9);
+    height: 1px; }
+
 .header {
   position: relative;
   z-index: 1;
@@ -186,8 +200,8 @@ body {
       display: inline-block;
       transition: background-color 0.6s ease;
       transition: opacity 0.3s ease; }
-      .header__slider-dots-item:checked {
-        background-color: black; }
+      .header__slider-dots-item.active {
+        background-color: gray; }
       .header__slider-dots-item:hover {
         opacity: 0.5; }
 

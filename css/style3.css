@@ -9,16 +9,19 @@
   line-height: 38px;
   font-weight: bold;
   text-align: center;
-  margin: 0 0 15px 0;
-  font-family: "Montserrat", sans-serif; }
+  margin: 0 0 30px 0;
+  font-family: "Montserrat", sans-serif;
+  color: #7b1f1f; }
 .block-one__text {
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
-  width: 60%;
+  width: 80%;
   text-align: center;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 30px auto;
   font-family: "Montserrat", sans-serif; }
+.block-one__label {
+  margin: 30px 0; }
 .block-one__imgs {
   display: flex;
   justify-content: center;
@@ -37,10 +40,10 @@
   align-items: center;
   margin-bottom: 20px; }
 .block-one__inf {
-  width: 60%;
-  font-size: 20px;
+  width: 80%;
+  font-size: 25px;
   line-height: 30px;
-  text-align: center;
+  text-align: justify;
   font-family: "Montserrat", sans-serif; }
 .block-one__icon {
   display: flex; }
