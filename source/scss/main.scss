@@ -226,9 +226,9 @@ body {
 			display: inline-block;
 			transition: background-color 0.6s ease;
 			transition: opacity 0.3s ease;
-			&.active{
+			&.active {
 				background-color: rgb(128, 128, 128);
-			}			
+			}
 			&:hover {
 				opacity: 0.5;
 			}
@@ -245,7 +245,7 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
-		margin-bottom: 45px;
+		margin-bottom: 60px;
 	}
 	&__contacts {
 		font-family: "Montserrat", sans-serif;
@@ -264,7 +264,7 @@ body {
 	}
 	&__nav {
 		position: relative;
-		line-height: 30px;
+		line-height: 30px;		
 		& ul {
 			position: relative;
 			& li:hover {
@@ -281,7 +281,7 @@ body {
 				overflow: hidden;
 				background: #d5d5d5;
 				position: absolute;
-				margin: -25px 0 0 195px;
+				margin: -25px 0 0 198px;
 				& li {
 					float: none;
 					display: list-item;
@@ -337,6 +337,8 @@ body {
 	}
 }
 /*"Підвал" сайту*/
+
+
 
 //Анімація слайдера
 @-webkit-keyframes fade {

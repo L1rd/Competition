@@ -5,7 +5,7 @@
 /*Шрифти*/
 /*"Тіло" сайту*/
 .block-one {
-  height: 870px;
+  height: 900px;
   margin-bottom: 85px; }
   .block-one__title {
     font-size: 30px;
@@ -33,6 +33,23 @@
     margin: auto;
     height: 300px;
     margin-bottom: 15px; }
+    .block-one__slides-dots {
+      text-align: center;
+      margin-top: 20px; }
+    .block-one__slides-dots-item {
+      cursor: pointer;
+      height: 12px;
+      width: 12px;
+      margin: 0 2px;
+      background-color: #bcbcbc;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      transition: opacity 0.3s ease; }
+      .block-one__slides-dots-item.active {
+        background-color: gray; }
+      .block-one__slides-dots-item:hover {
+        opacity: 0.5; }
     .block-one__slides .next {
       right: 0;
       border-radius: 3px 0 0 3px; }
