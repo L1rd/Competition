@@ -127,7 +127,7 @@ body {
 		align-items: center;
 		margin-bottom: 30px;
 		position: relative;
-		& ul {
+		& ul {			
 			position: relative;
 			& li:hover {
 				& > ul {
@@ -264,7 +264,7 @@ body {
 	}
 	&__nav {
 		position: relative;
-		line-height: 30px;		
+		line-height: 30px;
 		& ul {
 			position: relative;
 			& li:hover {
@@ -282,13 +282,14 @@ body {
 				background: #d5d5d5;
 				position: absolute;
 				margin: -25px 0 0 198px;
+				
 				& li {
 					float: none;
 					display: list-item;
 					position: relative;
 					z-index: 2;
 					transition: all 0.5s;
-					margin-bottom: 5px;
+					margin-bottom: 5px;					
 					& a {
 						font-size: 20px;
 					}
@@ -337,8 +338,6 @@ body {
 	}
 }
 /*"Підвал" сайту*/
-
-
 
 //Анімація слайдера
 @-webkit-keyframes fade {

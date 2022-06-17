@@ -15,9 +15,10 @@
 .block-one__text {
   display: block;
   font-size: 25px;
-  line-height: 30px;
+  line-height: 1.5;
+  font-weight: 400;
   width: 80%;
-  text-align: center;
+  text-align: justify;
   margin: 0 auto 30px auto;
   font-family: "Montserrat", sans-serif; }
 .block-one__label {
@@ -42,9 +43,10 @@
 .block-one__inf {
   width: 80%;
   font-size: 25px;
-  line-height: 30px;
   text-align: justify;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 400; }
 .block-one__icon {
   display: flex; }
   .block-one__icon img {

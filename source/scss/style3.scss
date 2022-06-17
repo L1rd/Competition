@@ -18,13 +18,14 @@
 	&__text {
 		display: block;
 		font-size: 25px;
-		line-height: 30px;
+		line-height: 1.5;
+		font-weight: 400;
 		width: 80%;
-		text-align: center;
+		text-align: justify;
 		margin: 0 auto 30px auto;
 		font-family: "Montserrat", sans-serif;
 	}
-	&__label{
+	&__label {
 		margin: 30px 0;
 	}
 	&__imgs {
@@ -52,10 +53,11 @@
 	}
 	&__inf {
 		width: 80%;
-		font-size: 25px;
-		line-height: 30px;
+		font-size: 25px;		
 		text-align: justify;
 		font-family: "Montserrat", sans-serif;
+		line-height: 1.5;
+		font-weight: 400;
 	}
 	&__icon {
 		display: flex;
