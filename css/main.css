@@ -237,7 +237,7 @@ body {
         transition: max-height 0.25s ease-in;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
       .footer__nav ul ul {
-        width: 215px;
+        width: 230px;
         max-height: 0;
         transition: max-height 0.15s ease-out;
         overflow: hidden;
@@ -250,7 +250,7 @@ body {
           position: relative;
           z-index: 2;
           transition: all 0.5s;
-          margin-bottom: 5px; }
+          margin: 5px 10px 0 8px; }
           .footer__nav ul ul li a {
             font-size: 20px; }
   .footer__disclaimer {

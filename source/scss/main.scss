@@ -275,21 +275,20 @@ body {
 				}
 			}
 			& ul {
-				width: 215px;
+				width: 230px;
 				max-height: 0;
 				transition: max-height 0.15s ease-out;
 				overflow: hidden;
 				background: #d5d5d5;
 				position: absolute;
-				margin: -25px 0 0 198px;
-				
+				margin: -25px 0 0 198px;				
 				& li {
 					float: none;
 					display: list-item;
 					position: relative;
 					z-index: 2;
 					transition: all 0.5s;
-					margin-bottom: 5px;					
+					margin: 5px 10px 0 8px;					
 					& a {
 						font-size: 20px;
 					}
