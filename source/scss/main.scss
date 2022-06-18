@@ -143,7 +143,7 @@ body {
 				background: #d5d5d5;
 				position: absolute;
 				margin-top: 5px;
-				width: 240px;
+				width: auto;
 
 				& li {
 					float: none;
@@ -151,9 +151,10 @@ body {
 					position: relative;
 					z-index: 2;
 					transition: all 0.5s;
-					margin: 20px 0 20px 10px;
+					margin: 20px 15px 20px 10px;
 					& a {
 						font-size: 20px;
+						padding-bottom: 3px;
 					}
 				}
 			}
@@ -362,6 +363,7 @@ body {
 	}
 }
 /*"Підвал" сайту*/
+
 
 //Анімація слайдера
 @-webkit-keyframes fade {

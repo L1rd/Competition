@@ -114,11 +114,12 @@
 		& tbody {
 			font-family: "Montserrat", sans-serif;
 			& td {
+				width: 350px;
 				&:first-of-type {
-					width: 300px;
+					width: 250px;
 				}
 				padding: 0 10px 4px 0;
-				width: 350px;
+				
 			}
 		}
 	}
@@ -161,6 +162,8 @@
 	}
 }
 /*"Тіло" сайту*/
+
+
 
 @-webkit-keyframes hide {
 	from {

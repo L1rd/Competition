@@ -134,16 +134,17 @@ body {
         background: #d5d5d5;
         position: absolute;
         margin-top: 5px;
-        width: 240px; }
+        width: auto; }
         .header__nav ul ul li {
           float: none;
           display: list-item;
           position: relative;
           z-index: 2;
           transition: all 0.5s;
-          margin: 20px 0 20px 10px; }
+          margin: 20px 15px 20px 10px; }
           .header__nav ul ul li a {
-            font-size: 20px; }
+            font-size: 20px;
+            padding-bottom: 3px; }
   .header__item a {
     font-family: "Roboto Slab", serif;
     position: relative;
