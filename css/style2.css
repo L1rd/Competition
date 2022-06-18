@@ -1,3 +1,19 @@
-
+.block-one {
+  height: 825px;
+  margin-bottom: 85px; }
+  .block-one__table tbody {
+    font-family: "Montserrat", sans-serif; }
+    .block-one__table tbody td {
+      width: 370px; }
+      .block-one__table tbody td:first-of-type {
+        width: 300px; }
+  .block-one__img img {
+    height: 300px;
+    color: black;
+    transition: 0.7s;
+    cursor: pointer; }
+    .block-one__img img:active {
+      backdrop-filter: blur(5px);
+      transform: scale(1.8) translate3d(200px, 50px, 20px); }
 
 /*# sourceMappingURL=style2.css.map */

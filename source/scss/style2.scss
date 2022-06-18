@@ -1,0 +1,29 @@
+
+.block-one {
+	height: 825px;
+	margin-bottom: 85px;	
+	&__table {		
+		& tbody {
+			font-family: "Montserrat", sans-serif;
+			& td {
+				&:first-of-type {
+					width: 300px;
+				}				
+				width: 370px;
+			}
+		}
+	}
+	&__img {		
+		& img {
+			height: 300px;
+			color: black;
+			transition: 0.7s;
+			cursor: pointer;
+
+			&:active {
+				backdrop-filter: blur(5px);
+				transform: scale(1.8) translate3d(200px, 50px, 20px);
+			}
+		}
+	}
+}
