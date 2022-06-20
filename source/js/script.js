@@ -84,7 +84,7 @@ function popupOpen(curentPopup) {
 		else {
 			bodyLock();
 		}
-		debugger
+
 		curentPopup.classList.add("open");
 		curentPopup.addEventListener("click", function (e) {
 			if (!e.target.closest(".popup-form__content")) {
@@ -102,7 +102,6 @@ function popupClose(popupActive, doUnlock = true) {
 			bodyUnLock();
 		}
 	}
-	debugger
 }
 
 function bodyLock() {
@@ -125,10 +124,9 @@ function bodyUnLock() {
 
 function submitForm() {
 	const frm = document.querySelector('.popup-form__form');
-	frm.reset();
-	debugger;
+	frm.reset()
 	popupOpen(popup2);
-	
+
 	return false;
 
 }
