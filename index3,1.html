@@ -65,6 +65,7 @@
 							</ul>
 						</li>
 					</ul>
+					<div class="header__item "><a href="#popup" class="popup-link">Замовити</a></div>
 				</div>
 
 		</header>
@@ -379,7 +380,7 @@
 							</li>
 						</ul>
 
-
+						<div class="footer__item "><a href="#popup" class="popup-link">Замовити</a></div>
 					</div>
 
 					<div class="footer__contacts">
@@ -395,11 +396,99 @@
 					is not for commercial use)</div>
 			</div>
 		</footer>
+		<div class="popup-form" id="popup">
+			<div class="popup-form__body">
+				<div class="popup-form__content">
+					<a href="#" class="popup-form__close close-popup"><i class="fa-regular fa-rectangle-xmark"></i></a>
+					<div class="popup-form__title">Замовити</div>
+					<form onsubmit="submitForm()" action="#" class="popup-form__form">
+						<div class="popup-form__row">
+							<div class="popup-form__item">
+								<div class="popup-form__label">Платіжна адреса</div>
+								<label for="fname"><i class="fa fa-user"></i> Повне ім'я</label>
+								<input type="text" id="fname" name="firstname" required placeholder="Рябоконь Артем Миколайович"
+									autocomplete="off" tabindex="1">
+								<label for="email"><i class="fa fa-envelope"></i> Email</label>
+								<input type="email" id="email" name="email" required placeholder="artem@mail.com"
+									autocomplete="off" tabindex="2">
+								<label for="adr"><i class="fa fa-address-card-o"></i> Адреса</label>
+								<input type="text" id="adr" name="address" required placeholder="вул. Пирогова"
+									autocomplete="on" tabindex="3">
+								<label for="city"><i class="fa fa-institution"></i> Місто</label>
+								<input type="text" id="city" name="city" required placeholder="Вінниця" autocomplete="on"
+									tabindex="4">
+
+								<div class="popup-form__row">
+									<div class="popup-form__item">
+										<label for="state">Область</label>
+										<input type="text" id="state" name="state" required placeholder="Вінницька"
+											autocomplete="on" tabindex="5">
+									</div>
+									<div class="popup-form__item">
+										<label for="zip">Пошт. індекс</label>
+										<input type="text" id="zip" name="zip" pattern="[0-9]{5}" required placeholder="21012"
+											autocomplete="on" tabindex="6">
+									</div>
+								</div>
+							</div>
+
+							<div class="popup-form__item">
+								<div class="popup-form__label">Оплата</div>
+								<label for="#">Доступні картки</label>
+								<div class="popup-form__icon-container">
+									<i class="fa fa-cc-visa" style="color:navy;"><a href="#"></a></i>
+									<i class="fa fa-cc-amex" style="color:blue;"></i>
+									<i class="fa fa-cc-mastercard" style="color:red;"></i>
+									<i class="fa fa-cc-discover" style="color:orange;"></i>
+								</div>
+								<label for="cname">Ім'я на картці</label>
+								<input type="text" id="cname" name="cardname" placeholder="Riabokon Artem" autocomplete="off"
+									tabindex="6">
+								<label for="ccnum">Номер кредитної картки</label>
+								<input type="text" id="ccnum" name="cardnumber" required placeholder="1111-2222-3333-4444"
+									autocomplete="off" pattern="[0-9, -]{19}" tabindex="7">
+								<label for="cvv">CVV</label>
+								<input type="text" id="cvv" name="cvv" required placeholder="352" autocomplete="off"
+									pattern="[0-9]{3}" tabindex="8">
+								<label for="expdate">Термін придатності</label>
+								<input type="text" id="expdate" name="expdate" required placeholder="04/24" autocomplete="off"
+									pattern="[0-9, /]{5}" tabindex="9">
+
+
+							</div>
+
+						</div>
+
+						<div class="popup-form__row good">
+							<div class="popup-form__label good-title">Обраний товар:</div>
+							<div class="popup-form__item">
+								<label for="model">Модель товару</label>
+								<input type="text" id="model" name="goodmodel" required placeholder="Cort-AD810" tabindex="10">
+
+							</div>
+							<div class="popup-form__item"><label for="ccnum">Колір товару</label>
+								<input type="text" id="color" name="goodcolor" required placeholder="Black Satin" tabindex="11">
+							</div>
+						</div>
+						<div class="popup-form__button"><button type="reset">Очистити</button>
+							<button type="submit">Замовити</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="popup-form" id="popup2">
+			<div class="popup-form__body">
+				<div class="popup-form__content">
+					<div class="popup-form__topic">Дякую за замовлення!</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 
 	<script src="./source/js/script1.js"></script>
-
+	<script src="https://kit.fontawesome.com/1715eaf0cc.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
