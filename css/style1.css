@@ -116,7 +116,7 @@
       cursor: pointer; }
       .block-one__img img:active {
         backdrop-filter: blur(5px);
-        transform: rotate(90deg) scale(2.2) translate3d(30px, -180px, 20px); }
+        transform: rotate(90deg) scale(2.2) translate3d(30px, -155px, 20px); }
   .block-one__price {
     font-family: "Montserrat", sans-serif;
     font-size: 19px;
