@@ -490,5 +490,11 @@ body {
     width: 220px; }
   .popup-form input[id="expdate"] {
     margin-bottom: 30px; } }
+@media (max-width: 426px) {
+  .header__nav ul {
+    position: relative; }
+    .header__nav ul ul {
+      margin: 0px 0 0 0;
+      z-index: 3; } }
 
 /*# sourceMappingURL=main.css.map */

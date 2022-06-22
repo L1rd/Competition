@@ -171,7 +171,7 @@
 }
 
 @media (max-width: 1100px) {
-	.header {		
+	.header {
 		&__slider {
 			width: 90%;
 			height: 400px;
@@ -184,13 +184,13 @@
 		& .prev,
 		& .next {
 			top: 30%;
-			height: 450px;
+			height: 400px;
 		}
 	}
 }
 
 @media (max-width: 850px) {
-	.header {		
+	.header {
 		&__slider {
 			width: 90%;
 			height: 310px;
@@ -202,10 +202,10 @@
 		}
 		& .prev,
 		& .next {
-			top: 30%;
-			height: 370px;
+			top: 27%;
+			height: 350px;
 		}
-	}	
+	}
 }
 @media (max-width: 500px) {
 	.header {
@@ -221,20 +221,23 @@
 		}
 	}
 	.block-one {
-		&__icon {			
-			& img {				
+		&__text,
+		&__inf {
+			width: 90%;
+		}
+		&__icon {
+			& img {
 				&:first-of-type {
 					margin-right: 0;
 				}
 			}
 		}
 		&__imgs {
-			
-			& img {				
+			& img {
 				margin: 0 0 20px 0;
 			}
 		}
-		&__item {			
+		&__item {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;

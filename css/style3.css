@@ -136,7 +136,7 @@
       height: 340px; }
   .header .prev, .header .next {
     top: 30%;
-    height: 450px; } }
+    height: 400px; } }
 @media (max-width: 850px) {
   .header__slider {
     width: 90%;
@@ -144,8 +144,8 @@
     .header__slider-item img {
       height: 270px; }
   .header .prev, .header .next {
-    top: 30%;
-    height: 370px; } }
+    top: 27%;
+    height: 350px; } }
 @media (max-width: 500px) {
   .header__slider {
     display: none; }
@@ -154,6 +154,8 @@
   .header .prev, .header .next {
     display: none; }
 
+  .block-one__text, .block-one__inf {
+    width: 90%; }
   .block-one__icon img:first-of-type {
     margin-right: 0; }
   .block-one__imgs img {
