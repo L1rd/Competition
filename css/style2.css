@@ -66,6 +66,9 @@
 @media (max-width: 426px) {
   .block-one {
     height: 1180px; } }
+@media (max-width: 376px) {
+  .block-one {
+    height: 1262px; } }
 @media (max-width: 326px) {
   .block-one {
     height: 1315px; }

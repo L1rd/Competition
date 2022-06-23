@@ -248,10 +248,10 @@
 
 @media (max-width: 426px) {
 	.block-one {
-		height: 1388px;
-		&__table{
+		height: 1417px;
+		&__table {
 			font-size: 15px;
-		}		
+		}
 		&__img {
 			width: auto;
 			height: 430px;
@@ -276,9 +276,13 @@
 		}
 	}
 }
+@media (max-width: 376px) {
+	.block-one{
+		height: 1505px;
+	}
+}
 @media (max-width: 326px) {
 	.block-one {
 		height: 1655px;
-		
 	}
 }

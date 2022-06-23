@@ -187,7 +187,7 @@
       border-radius: 0 3px 3px 0; } }
 @media (max-width: 426px) {
   .block-one {
-    height: 1388px; }
+    height: 1417px; }
     .block-one__table {
       font-size: 15px; }
     .block-one__img {
@@ -204,6 +204,9 @@
     .block-one .prev,
     .block-one .next {
       display: none; } }
+@media (max-width: 376px) {
+  .block-one {
+    height: 1505px; } }
 @media (max-width: 326px) {
   .block-one {
     height: 1655px; } }
