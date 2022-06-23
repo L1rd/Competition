@@ -485,19 +485,20 @@ body {
   .footer__row {
     flex-direction: column; } }
 @media (max-width: 725px) {
+  .popup-form__content {
+    width: 100%; }
+  .popup-form__item {
+    width: 100%; }
   .popup-form__row {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start; }
-  .popup-form input[id="state"] {
-    width: 94%; }
   .popup-form input[id="zip"] {
-    width: 94%;
     margin-bottom: 30px; }
-  .popup-form input[id="model"] {
-    width: 220px; }
   .popup-form input[id="expdate"] {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .popup-form input[type="text"], .popup-form input[type="email"] {
+    width: 100%; } }
 @media (max-width: 426px) {
   .header__nav ul {
     position: relative; }
