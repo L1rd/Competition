@@ -605,6 +605,8 @@ body {
 	.popup-form {
 		&__close{
 			position: sticky;
+			right: 0;
+			left: 315px;
 		}
 		&__content {
 			width: 100%;
