@@ -248,7 +248,10 @@
 
 @media (max-width: 426px) {
 	.block-one {
-		height: 1510px;
+		height: 1365px;
+		&__table{
+			font-size: 15px;
+		}		
 		&__img {
 			width: auto;
 			height: 430px;

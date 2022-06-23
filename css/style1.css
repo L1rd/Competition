@@ -187,7 +187,9 @@
       border-radius: 0 3px 3px 0; } }
 @media (max-width: 426px) {
   .block-one {
-    height: 1510px; }
+    height: 1365px; }
+    .block-one__table {
+      font-size: 15px; }
     .block-one__img {
       width: auto;
       height: 430px;
