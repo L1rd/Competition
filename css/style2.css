@@ -66,5 +66,8 @@
 @media (max-width: 426px) {
   .block-one {
     height: 1180px; } }
+@media (max-width: 326px) {
+  .block-one {
+    height: 1445px; } }
 
 /*# sourceMappingURL=style2.css.map */

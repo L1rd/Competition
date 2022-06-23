@@ -204,5 +204,8 @@
     .block-one .prev,
     .block-one .next {
       display: none; } }
+@media (max-width: 326px) {
+  .block-one {
+    height: 1655px; } }
 
 /*# sourceMappingURL=style1.css.map */
