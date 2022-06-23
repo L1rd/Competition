@@ -100,12 +100,22 @@
 	}
 }
 @media (max-width: 426px) {
-	.block-one{
+	.block-one{		
 		height: 1180px;
 	}
 }
 @media (max-width: 326px) {
-	.block-one{
-		height: 1445px;
+	.block-one{		
+		height: 1315px;
+		&__description{
+			font-size: 15px;
+		}
+		&__img{
+			width: 200px;
+			& img{
+				height: 230px;
+				width: 300px;
+			}
+		}
 	}
 }
