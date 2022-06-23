@@ -221,9 +221,11 @@
 		}
 	}
 	.block-one {
+		
 		&__text,
 		&__inf {
 			width: 90%;
+			text-align: center;
 		}
 		&__icon {
 			& img {

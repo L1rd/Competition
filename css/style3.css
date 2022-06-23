@@ -155,7 +155,8 @@
     display: none; }
 
   .block-one__text, .block-one__inf {
-    width: 90%; }
+    width: 90%;
+    text-align: center; }
   .block-one__icon img:first-of-type {
     margin-right: 0; }
   .block-one__imgs img {

@@ -497,6 +497,8 @@ body {
 			background-color: lightgray;
 			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 		}
+		&__toggle-close {
+		}
 		&__btn {
 			position: fixed;
 			top: 35px;
@@ -590,12 +592,12 @@ body {
 }
 @media (max-width: 850px) {
 	.footer {
+		&__nav {
+			display: none;
+		}
+
 		&__row {
 			flex-direction: column;
-		}
-		&__nav {
-			text-align: center;
-			margin-bottom: 30px;
 		}
 	}
 }
@@ -633,5 +635,5 @@ body {
 				}
 			}
 		}
-	}
+	}	
 }
