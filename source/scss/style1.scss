@@ -219,7 +219,7 @@
 			align-items: center;
 			height: 350px;
 			width: 600px;
-			transform: rotate(90deg);			
+			transform: rotate(90deg);
 			& .hide {
 				display: none;
 			}
@@ -242,6 +242,34 @@
 			font-size: 45px;
 			transition: 0.6s ease;
 			border-radius: 0 3px 3px 0;
+		}
+	}
+}
+
+@media (max-width: 426px) {
+	.block-one {
+		height: 1510px;
+		&__img {
+			width: auto;
+			height: 430px;
+			transform: rotate(0deg);
+			& img {
+				height: 430px;
+			}
+		}
+		&__description {
+			font-size: 17px;
+		}
+		&__slides {
+			&-dots-item {
+				height: 16px;
+				width: 16px;
+			}
+		}
+
+		.prev,
+		.next {
+			display: none;
 		}
 	}
 }

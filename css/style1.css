@@ -185,5 +185,22 @@
       font-size: 45px;
       transition: 0.6s ease;
       border-radius: 0 3px 3px 0; } }
+@media (max-width: 426px) {
+  .block-one {
+    height: 1510px; }
+    .block-one__img {
+      width: auto;
+      height: 430px;
+      transform: rotate(0deg); }
+      .block-one__img img {
+        height: 430px; }
+    .block-one__description {
+      font-size: 17px; }
+    .block-one__slides-dots-item {
+      height: 16px;
+      width: 16px; }
+    .block-one .prev,
+    .block-one .next {
+      display: none; } }
 
 /*# sourceMappingURL=style1.css.map */

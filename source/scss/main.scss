@@ -603,6 +603,9 @@ body {
 }
 @media (max-width: 725px) {
 	.popup-form {
+		&__close{
+			position: sticky;
+		}
 		&__content {
 			width: 100%;
 		}

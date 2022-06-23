@@ -221,11 +221,15 @@
 		}
 	}
 	.block-one {
-		
+		&__history {
+			& div {				
+				margin-bottom: 10px;
+			}
+		}
 		&__text,
 		&__inf {
 			width: 90%;
-			text-align: center;
+			font-size: 18px;			
 		}
 		&__icon {
 			& img {

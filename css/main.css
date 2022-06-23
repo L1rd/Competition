@@ -485,6 +485,8 @@ body {
   .footer__row {
     flex-direction: column; } }
 @media (max-width: 725px) {
+  .popup-form__close {
+    position: sticky; }
   .popup-form__content {
     width: 100%; }
   .popup-form__item {
