@@ -402,9 +402,18 @@ body {
   to {
     opacity: 1; } }
 @media (max-width: 1250px) {
+  .header__toggle-back {
+    position: fixed;
+    top: 15px;
+    left: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
   .header__btn {
     position: fixed;
-    top: 20px;
+    top: 35px;
     left: 20px;
     width: 26px;
     height: 20px;
@@ -454,8 +463,8 @@ body {
   #header__toggle {
     display: block;
     position: fixed;
-    top: 10px;
-    left: 20px;
+    top: 25px;
+    left: 18px;
     height: 25px;
     width: 30px;
     z-index: 5;
