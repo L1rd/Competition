@@ -247,6 +247,9 @@
 }
 
 @media (max-width: 426px) {
+	.container{
+		max-width: 500px;
+	}
 	.block-one {
 		height: 1417px;
 		&__table {
