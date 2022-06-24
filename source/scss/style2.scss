@@ -1,19 +1,18 @@
-
 .block-one {
 	height: 825px;
-	margin-bottom: 85px;	
-	&__table {		
+	margin-bottom: 85px;
+	&__table {
 		& tbody {
 			font-family: "Montserrat", sans-serif;
 			& td {
 				&:first-of-type {
 					width: 200px;
-				}				
+				}
 				width: 370px;
 			}
 		}
 	}
-	&__img {		
+	&__img {
 		& img {
 			height: 300px;
 			color: black;
@@ -33,12 +32,11 @@
 		&__img {
 			& img {
 				height: 300px;
-				
 			}
 		}
-		&__img {		
+		&__img {
 			& img {
-				height: 300px;				
+				height: 300px;
 				&:active {
 					backdrop-filter: blur(5px);
 					transform: scale(1.8) translate3d(170px, 50px, 20px);
@@ -49,7 +47,7 @@
 }
 @media (max-width: 769px) {
 	.block-one {
-		height: 1270px;
+		height: 1280px;
 		&__content {
 			display: flex;
 			align-items: center;
@@ -73,7 +71,7 @@
 			align-items: center;
 			height: 250px;
 			width: 400px;
-			transform: rotate(0deg);			
+			transform: rotate(0deg);
 			& .hide {
 				display: none;
 			}
@@ -100,7 +98,7 @@
 	}
 }
 @media (max-width: 426px) {
-	.block-one{		
+	.block-one {
 		height: 1180px;
 	}
 }
@@ -110,14 +108,14 @@
 	}
 }
 @media (max-width: 326px) {
-	.block-one{		
+	.block-one {
 		height: 1315px;
-		&__description{
+		&__description {
 			font-size: 15px;
 		}
-		&__img{
+		&__img {
 			width: 200px;
-			& img{
+			& img {
 				height: 230px;
 				width: 300px;
 			}

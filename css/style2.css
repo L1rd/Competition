@@ -28,7 +28,7 @@
         transform: scale(1.8) translate3d(170px, 50px, 20px); } }
 @media (max-width: 769px) {
   .block-one {
-    height: 1270px; }
+    height: 1280px; }
     .block-one__content {
       display: flex;
       align-items: center;
