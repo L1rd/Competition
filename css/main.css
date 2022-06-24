@@ -485,10 +485,6 @@ body {
   .footer__row {
     flex-direction: column; } }
 @media (max-width: 725px) {
-  .popup-form__close {
-    position: sticky;
-    right: 0;
-    left: 315px; }
   .popup-form__content {
     width: 100%; }
   .popup-form__item {
@@ -504,6 +500,11 @@ body {
   .popup-form input[type="text"], .popup-form input[type="email"] {
     width: 100%; } }
 @media (max-width: 426px) {
+  .popup-form__close {
+    position: sticky;
+    right: 0;
+    left: 355px; }
+
   .header__nav ul {
     position: relative; }
     .header__nav ul ul {
