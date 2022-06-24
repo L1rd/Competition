@@ -333,7 +333,6 @@ body {
     width: 220px; }
   .popup-form__button {
     display: flex;
-    justify-content: space-between;
     align-items: center; }
     .popup-form__button button {
       background: rgba(165, 42, 42, 0.9);
@@ -341,13 +340,15 @@ body {
       padding: 12px;
       margin: 10px 0;
       border: none;
-      width: 47%;
+      width: 45%;
       border-radius: 3px;
       cursor: pointer;
       font-size: 17px;
       font-weight: bold;
       transition: 0.5s;
       border: 2px solid rgba(165, 42, 42, 0.9); }
+      .popup-form__button button:first-of-type {
+        margin-right: 6%; }
       .popup-form__button button a {
         padding: 12px;
         width: 47%; }
@@ -487,6 +488,8 @@ body {
   .footer__row {
     flex-direction: column; } }
 @media (max-width: 725px) {
+  .popup-form__button button:first-of-type {
+    margin-right: auto; }
   .popup-form__content {
     width: 100%; }
   .popup-form__item {
