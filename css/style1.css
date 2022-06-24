@@ -208,9 +208,15 @@
     .block-one .next {
       display: none; } }
 @media (max-width: 376px) {
+  .container {
+    max-width: 400px; }
+
   .block-one {
     height: 1505px; } }
 @media (max-width: 326px) {
+  .container {
+    max-width: 350px; }
+
   .block-one {
     height: 1655px; } }
 

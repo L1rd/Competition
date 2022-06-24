@@ -247,7 +247,7 @@
 }
 
 @media (max-width: 426px) {
-	.container{
+	.container {
 		max-width: 500px;
 	}
 	.block-one {
@@ -280,11 +280,17 @@
 	}
 }
 @media (max-width: 376px) {
-	.block-one{
+	.container {
+		max-width: 400px;
+	}
+	.block-one {
 		height: 1505px;
 	}
 }
 @media (max-width: 326px) {
+	.container {
+		max-width: 350px;
+	}
 	.block-one {
 		height: 1655px;
 	}
