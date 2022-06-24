@@ -186,6 +186,8 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 60px; }
+  .footer__place i {
+    width: 17px; }
   .footer__contacts {
     font-family: "Montserrat", sans-serif;
     font-size: 17px;

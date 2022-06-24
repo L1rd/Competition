@@ -212,10 +212,16 @@ body {
 		justify-content: space-around;
 		margin-bottom: 60px;
 	}
+	&__place {
+		& i {
+			width: 17px;
+		}
+	}
 	&__contacts {
 		font-family: "Montserrat", sans-serif;
 		font-size: 17px;
 		line-height: 1.5;
+
 		& span {
 			font-weight: bold;
 		}
